@@ -2,3 +2,80 @@
 a.active {
     font-weight: bold;
 }
+html{
+    background:#e3e3e3;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background:#fff;
+}
+
+h1{
+    font-size:3em;
+    margin: 0;
+}
+
+h2{
+    font-size:2em;
+    margin: 1;
+}
+
+p{
+    line-height:1.4em;
+}
+
+#Blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#Blogs > section {
+    flex: 1;
+    max-width: 48%;
+    box-sizing: border-box;
+}
+
+#Blog1{
+    border-top: 3px dotted #ccc;
+}
+
+#Blog2{
+    border-top: 3px dotted #ccc;
+}
+
+.contactform{
+    font-weight: bold;
+}
+
+#Newsletter{
+    border-top: 3px dotted #ccc;
+}
+
+img[src$=".jpg"] {
+    border: 5px solid #242424;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+  
+.img-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+  
+.profile p {
+    margin: 0;
+}
+
+ 
