@@ -29,14 +29,14 @@ p{
     line-height:1.4em;
 }
 
-#Blogs {
+#blogs {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
 }
 
-#Blogs > section {
+#blogs > article {
     flex: 1;
     max-width: 48%;
     box-sizing: border-box;
